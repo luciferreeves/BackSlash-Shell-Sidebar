@@ -1,0 +1,25 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "azubieta90@gmail.com",
+                "Name": "Alexis López Zubieta"
+            }
+        ],
+        "Category": "System Information",
+        "Dependencies": [
+        ],
+        "Description": "BackSlash Shell Sidebar",
+        "EnabledByDefault": true,
+        "Icon": "org.kde.plasma.systemtray",
+        "Id": "backslash-shell.sidebar",
+        "License": "GPL v3+",
+        "Name": "Sidebar",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
